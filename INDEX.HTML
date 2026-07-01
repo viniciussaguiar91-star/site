@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vinícius</title>
-  </head>
-  <body>
-    <header>
-      <h1>Vinícius</h1>
 
-      <nav>
-        <!--Seçaõ de navegação-->
-        <ul>
-          <!--Lista não ordenada  para links do nosso menu-->
-          <li><a href="#sobre">Sobre mim</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="https://google.com.br/" target="_blank" rel="noopener noreferrer">Google</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="sobre">
-      <h2>Sobre mim</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinícius</title>
+</head>
 
-      <img
-        src="imagem.jpg"
-        alt="Imagem de foto de perfil"
-        title="Foto de perfil de Vinícius"
-        width="200px"
-      />
+<body>
+  <header>
+    <h1>Vinícius</h1>
 
-      <article>
-        <p>Olá! Meu nome é Vinícius e sou um desenvolvedor web.
+    <nav>
+      <!--Seçaõ de navegação-->
+      <ul>
+        <!--Lista não ordenada  para links do nosso menu-->
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://google.com.br/" target="_blank" rel="noopener noreferrer">Google</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+
+    <img src="imagem.jpg" alt="Imagem de foto de perfil" title="Foto de perfil de Vinícius" width="200px" />
+
+    <article>
+      <p>Olá! Meu nome é Vinícius e sou um desenvolvedor web.
 
 
 
-        </p>
-      </article>
+      </p>
+    </article>
 
-      <aside>
-        <h3>Habilidades</h3>
+    <aside>
+      <h3>Habilidades</h3>
 
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </aside>
-    </section>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </aside>
+  </section>
 
-    <section id="projetos">
-      <h2>Projetos</h2>
+  <section id="projetos">
+    <h2>Projetos</h2>
 
-      <article>
-        <h3>Portifólio</h3>
-        <p>Este é o primeiro site que desenvolvi estudando Front-end. 
-      
-        </p>
-      </article>
-    </section>
-<footer>
+    <article>
+      <h3>Portifólio</h3>
+      <p>Este é o primeiro site que desenvolvi estudando Front-end.
+
+      </p>
+    </article>
+  </section>
+  <footer>
 
     <p>Direitos reservados &copy; 2026 Vinícius</p>
 
-<section Id="contato">
-  <h2>Contato</h2>    
-  <p>Entre em contato comigo</p> 
-  <address>
-    <p>Email: <a href="mailto:vinicius@example.com">vinicius@example.com</a> <br>
-    Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a>
-    </p>
+    <section Id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato comigo</p>
 
-    </p>
-  </address>
-</section>
+      </form action="">
 
-</footer>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required /> <br />
 
-  </body>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /> <br />
+
+      <label for="telefone">Mensagem:</label>
+      <input type="tel" id="telefone" name="telefone" required /> <br />
+
+      <label for="assunto">Assunto:</label>
+      <select id="assunto" name="assunto" required>
+        <option value="">Selecione um assunto</option>
+        <option value="duvida">Dúvida</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+      <br>
+
+      <input type="checkbox" id="inscricao" name="inscricao" required />
+      <label for="inscricao">Deseja receber minha newsletter?</label> <br />
+
+      <br>
+
+      <input type="submit" value="Enviar mensagem" />
+
+
+      </form>
+
+    </section>
+
+  </footer>
+
+</body>
+
 </html>
